@@ -426,7 +426,7 @@ main section.section_three .white_container {
 /******************
 ***D A A N C S S***
 ******************/
-.container-center{
+.container-center {
   width: 100vw;
   display: flex;
   align-items: center;
@@ -438,7 +438,7 @@ main section.section_three .white_container {
   justify-content: center;
   gap: 4rem;
 }
-.idee_box{
+.idee_box {
   flex-basis: calc(33.3333% - 4rem);
   display: flex;
   flex-direction: column;
@@ -446,13 +446,11 @@ main section.section_three .white_container {
 }
 .idee_box__top {
   display: flex;
-  justify-content:space-between
+  justify-content: space-between;
 }
 .idee_box__date {
-
 }
 .idee_box__image {
-
 }
 .idee_box__image img {
   height: auto;
@@ -484,6 +482,5 @@ main section.section_three .white_container {
 .idee_box__btn:hover {
   cursor: pointer;
 }
-/******************
-***D A A N C S S***
-******************/
+
+/*EINDE DAAN CSSSSSS*/
