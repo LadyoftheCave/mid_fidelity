@@ -465,6 +465,62 @@ main .section_one.section_idee_one .text_left {
 main article.idee_box {
   cursor: pointer;
 }
+
+main .text_left img {
+  float: right;
+  clear: right;
+  margin-top: 3rem;
+  margin-right: -3rem;
+  clip-path: polygon(
+    -3.5% 38.62%,
+    11.33% 14.73%,
+    29.66% 5.46%,
+    107.61% -0.78%,
+    102.75% 101.48%,
+    87.28% 100.7%,
+    58.02% 96.25%
+  );
+  shape-outside: polygon(
+    -15.91% 36.32%,
+    39.46% 16.63%,
+    144.86% 7.64%,
+    176.06% 92.6%,
+    137.34% 99.21%,
+    67.79% 97.43%,
+    65.94% 74.2%,
+    12.38% 61.98%
+  );
+  box-sizing: border-box;
+}
+
+main .text_right img {
+  float: left;
+  clear: left;
+  margin-top: 3rem;
+  clip-path: polygon(
+    -8.76% -3.6%,
+    58.1% 2.12%,
+    91.29% 10.9%,
+    103.57% 33.96%,
+    105.33% 52.78%,
+    55.24% 67.98%,
+    45.11% 93.72%,
+    38.75% 104.22%,
+    -6.03% 102.12%
+  );
+  shape-outside: polygon(
+    -11.11% 27.22%,
+    -2.98% 6.03%,
+    58.71% 11.36%,
+    103.04% 27.67%,
+    104.17% 49.78%,
+    58.95% 71.91%,
+    56.6% 89%,
+    33.42% 98.99%,
+    -10.87% 101.31%
+  );
+  box-sizing: border-box;
+}
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
