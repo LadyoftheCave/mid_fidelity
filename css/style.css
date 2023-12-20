@@ -413,13 +413,13 @@ main .idee_box {
   justify-content: center;
 }
 
-/* main section.container-center .kopjes {
+main section.container-center .kopjes {
   text-align: center;
 }
-main section.container-center .kopjes img {youtube hand
-  inline-size: 100%;oefeningenoeoefeninghandenhandenoeoefeningen hypermobiele
+main section.container-center .kopjes img {
+  inline-size: 100%;
   margin-block-start: 3rem;
-} */
+}
 
 main section.section_one.section_idee_one img {
   inline-size: 100%;
@@ -460,6 +460,10 @@ main section.section_two.section_idee_two .datum .datum_blok p {
 
 main .section_one.section_idee_one .text_left {
   text-align: center;
+}
+
+main article.idee_box {
+  cursor: pointer;
 }
 /* MEDIA QUERIES */
 
