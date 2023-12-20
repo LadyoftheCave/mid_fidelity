@@ -174,7 +174,7 @@ header .nav-menu.active {
 }
 
 header picture img {
-  width: 100%;
+  inline-size: 100%;
 }
 
 /* header picture {
@@ -210,13 +210,13 @@ main section.section_two .read .read_button {
   background-color: #ddd;
   border: none;
   color: black;
-  padding: 10px 20px;
+  padding: 0.6rem 1.25rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 1rem 0 0.3rem 0;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 
 header section.hero-section {
@@ -269,7 +269,7 @@ main section.section_two {
 
 main section.section_two .grey_container,
 main section.section_three .white_container {
-  width: 100%;
+  inline-size: 100%;
   display: flex;
   gap: 3rem;
   flex-direction: column;
@@ -294,43 +294,43 @@ footer .widget {
 
 form {
   background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 0.6rem rgba(0, 0, 0, 0.1);
 }
 
 label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   color: #333;
 }
 
 input[type="text"],
 textarea,
 select {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
+  inline-size: 100%;
+  padding: 0.62rem;
+  margin-bottom: 0.94rem;
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 select {
-  height: 40px;
+  block-size: 2.5rem;
 }
 
 input[type="submit"] {
   background-color: #ddd;
   border: none;
   color: black;
-  padding: 10px 20px;
+  padding: 0.62rem 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 1rem 0 0.3rem 0;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 
 input[type="submit"]:hover {
@@ -338,7 +338,7 @@ input[type="submit"]:hover {
 }
 
 section.uploaden_section .container--narrow {
-  max-width: 63rem;
+  max-width: 3.9rem;
 }
 section.uploaden_section .container--narrow .introtext {
   text-align: center;
@@ -355,13 +355,13 @@ main .idee_box__btn {
   background-color: #ddd;
   border: none;
   color: black;
-  padding: 10px 40px;
+  padding: 0.62rem 2.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 0 0 1.5rem 0;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 main .idee_box__btn:hover {
   cursor: pointer;
@@ -371,7 +371,7 @@ main .idee_box {
   display: flex;
   flex-direction: column;
   border: 1px solid #cacaca;
-  box-shadow: 3px 3px 10px #d5d0d0;
+  box-shadow: 3px 3px 0.62rem #d5d0d0;
 }
 
 .container-center {
@@ -397,8 +397,8 @@ main .idee_box {
 .idee_box__image {
 }
 .idee_box__image img {
-  height: auto;
-  width: 100%;
+  block-size: auto;
+  inline-size: 100%;
 }
 .idee_box__tekst {
   display: flex;
@@ -568,7 +568,7 @@ main section.container-center .kopjes {
   }
 
   main section.section_three .text_right {
-    padding: 0 15px;
+    padding: 0 0.94rem;
     box-sizing: border-box;
   }
 
@@ -619,7 +619,7 @@ main section.container-center .kopjes {
     align-items: center;
   }
   section.uploaden_section .container--narrow {
-    width: 63rem;
+    inline-size: 63rem;
   }
 
   form {
