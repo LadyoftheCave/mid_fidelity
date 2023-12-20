@@ -337,9 +337,9 @@ input[type="submit"]:hover {
   background-color: var(--kleur-oranje);
 }
 
-section.uploaden_section .container--narrow {
+/* section.uploaden_section .container--narrow {
   max-width: 3.9rem;
-}
+} */
 section.uploaden_section .container--narrow .introtext {
   text-align: center;
   margin-block-end: 2rem;
