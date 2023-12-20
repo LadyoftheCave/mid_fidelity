@@ -412,6 +412,10 @@ main .idee_box {
   align-items: center;
   justify-content: center;
 }
+
+main section.container-center .kopjes {
+  text-align: center;
+}
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
