@@ -123,7 +123,7 @@ header nav.menu ul li a {
 }
 
 header .nav-menu .nav-link:hover {
-  color: var(--kleur-transparant);
+  color: var(--kleur-oranje);
 }
 
 header button.hamburger .bar {
@@ -413,7 +413,52 @@ main .idee_box {
   justify-content: center;
 }
 
-main section.container-center .kopjes {
+/* main section.container-center .kopjes {
+  text-align: center;
+}
+main section.container-center .kopjes img {youtube hand
+  inline-size: 100%;oefeningenoeoefeninghandenhandenoeoefeningen hypermobiele
+  margin-block-start: 3rem;
+} */
+
+main section.section_one.section_idee_one img {
+  inline-size: 100%;
+  margin-block-start: 3rem;
+}
+
+main section.section_one.section_idee_one .container--narrow {
+  margin-block-end: 0;
+}
+
+main section.section_two.section_idee_two {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+main section.section_two.section_idee_two .datum {
+  display: flex;
+  justify-content: center;
+  /* padding: 0 1.5rem 0 1.5rem; */
+  gap: 6rem;
+  margin-block-end: 1rem;
+}
+main section.section_two.section_idee_two .datum .datum_blok {
+  display: flex;
+  align-items: center;
+  /* margin-inline-start: 0.5rem; */
+  /* justify-content: center; */
+  /* padding: 0 1.5rem 0 1.5rem; */
+  /* gap: 6rem; */
+  margin-bottom: 1rem;
+}
+
+main section.section_two.section_idee_two .datum .datum_blok p {
+  margin-inline-start: 1rem;
+  font-size: 0.8rem;
+}
+
+main .section_one.section_idee_one .text_left {
   text-align: center;
 }
 /* MEDIA QUERIES */
