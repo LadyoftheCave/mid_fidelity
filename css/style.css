@@ -466,7 +466,7 @@ main article.idee_box {
   cursor: pointer;
 }
 
-main .text_left img {
+main .text_left img.idee_flow {
   float: right;
   clear: right;
   margin-top: 3rem;
@@ -528,6 +528,12 @@ section.section_idee_one .text_left p {
 
 main section.section_three.section_three_idea .text_right {
   padding: 0;
+}
+main section.section_three.section_three_idea .read.read_one {
+  text-align: center;
+}
+main section.section_three.section_three_idea .img_middle img {
+  margin: 0;
 }
 
 /* MEDIA QUERIES */
