@@ -521,6 +521,15 @@ main .text_right img {
   );
   box-sizing: border-box;
 }
+
+section.section_idee_one .text_left p {
+  margin-bottom: 2rem;
+}
+
+main section.section_three.section_three_idea .text_right {
+  padding: 0;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 768px) {
@@ -572,6 +581,9 @@ main .text_right img {
 }
 
 @media (min-width: 900px) {
+  section.section_idee_one .text_left p {
+    margin-bottom: 2rem;
+  }
   .container--narrow {
     max-width: 63rem;
     margin-block-start: 3rem;
